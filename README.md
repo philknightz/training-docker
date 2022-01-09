@@ -5,14 +5,18 @@ Docker training
 To build the image
 
 ```
-docker build . -t myapp:latest
+docker build . -t server:latest
 ```
 
 
 To start the node server run
 
 ```bash
-docker run myapp
+docker run server
 ```
 
+To start docker with docker-compose
 
+```bash
+docker-compose up
+````
